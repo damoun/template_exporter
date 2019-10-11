@@ -4,6 +4,11 @@
 *.dll
 *.so
 *.dylib
+/*_exporter
+/.build
+/.release
+/.tarballs
+*.tar.gz
 
 # Test binary, build with `go test -c`
 *.test
