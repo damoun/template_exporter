@@ -44,7 +44,7 @@ func NewExporter() (*Exporter, error) {
 	return &Exporter{}, nil
 }
 
-// Describe describes all the metrics ever exported by the Twitch exporter.
+// Describe describes all the metrics ever exported by the exporter.
 // It implements prometheus.Collector.
 func (e *Exporter) Describe(ch chan<- *prometheus.Desc) {
 	ch <- up
